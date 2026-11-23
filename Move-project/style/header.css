@@ -1,0 +1,79 @@
+@import url(theme.css);
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 52px;
+}
+
+.header_title{
+    text-align: center;
+    font-size: 32px;
+}
+
+.search{
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.search_controls{
+    display: flex;
+
+}
+
+
+#search-btn{
+    width: 100px;
+    border: none;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+#themeToggle{
+    width: 100px;
+    background-color: #121214;
+    color: #ffffff;
+    border:  none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+body.dark #themeToggle{
+    background-color: #ffffff;
+    color: #121214;
+    border-color: #e2e8f0;
+}
+
+#film-input{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    color: var(--text-main);
+    background-color: var(--bg-page);
+}
+
+#favorites-btn{
+    width: 150px;
+    box-sizing: border-box;
+    margin-left: auto;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.fav-btn{
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4b444411;
+    color: var(--text-main);
+}
